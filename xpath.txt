@@ -1,0 +1,3 @@
+links = //img[@class="psw-fade-in psw-top-left psw-l-fit-cover"]/@src
+titles = //li[@class="psw-cell"]/div/a/section/span/text()
+prices = //li[@class="psw-cell"]/div/a/section/div/span/text()
