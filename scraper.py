@@ -7,7 +7,6 @@ import datetime
 HOME_URL = 'https://www.larepublica.co/'
 
 XPATH_LINK_TO_ARTICLE = '//a[contains(@class,"kicker")]/@href'
-#XPATH_TITLE = Titulo
 XPATH_SUMMARY = '//div[@class="lead"]/p/text()'
 XPATH_BODY ='//div[@class="html-content"]//text()'
 
@@ -18,17 +17,14 @@ def get_title(link):
     title_list=url.split('-')[:-1]
     #Unimos lo anterior
     title = " ".join(title_list)
-
     return(title)
 
 def parse_notice(link, today):
     try:
         response = requests.get(link)
         if response.status_code == 200:
-            
             notice = response.content.decode('utf-8')
             parsed = html.fromstring(notice)
-
             try:
                 title = get_title(link)
                 summary = parsed.xpath(XPATH_SUMMARY)[0]
@@ -36,6 +32,7 @@ def parse_notice(link, today):
             except IndexError:
                 return
             
+            #TODO: Add Republica and save as list 
             with open(f'{today}/{title}.txt', 'w', encoding='utf-8') as f:
                 f.write(title)
                 f.write('\n\n')
@@ -43,8 +40,7 @@ def parse_notice(link, today):
                 f.write('\n\n')
                 for p in body:
                     f.write(p)
-                    f.write('\n')
-            
+                    f.write('\n')      
         else:
             raise ValueError(f'Error: {response.status_code}')
     except ValueError as ve:
@@ -58,23 +54,18 @@ def parse_home():
             home = response.content.decode('utf-8')
             parsed = html.fromstring(home)
             links_to_notices = parsed.xpath(XPATH_LINK_TO_ARTICLE)
-            #print(links_to_notices)
-            today = datetime.date.today().strftime('%d-%m-%Y')
+            today = "Republica-"+datetime.date.today().strftime('%d-%m-%Y')
             if not os.path.isdir(today):
                 os.mkdir(today)
-            
             for link in links_to_notices:
                 parse_notice(link, today)
-
         else:
             raise ValueError(f'Error: {response.status_code}')
     except ValueError as ve:
         print(ve)
 
-
 def run():
     parse_home()
     
-
 if __name__ == "__main__":
     run()

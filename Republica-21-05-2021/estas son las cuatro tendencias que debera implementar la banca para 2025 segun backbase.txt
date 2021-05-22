@@ -1,0 +1,52 @@
+estas son las cuatro tendencias que debera implementar la banca para 2025 segun backbase
+
+El más reciente estudio de Backbase reveló que los bancos deberán ser omnicanales, modulares, abiertos e inteligentes para no perder participación 
+
+
+    
+Un avance tecnológico entre tres y cinco años estiman los expertos que tuvo la banca a raíz de la pandemia. En menos de un año, las entidades del sector financiero tuvieron que rediseñar sus sistemas para ser capaces de ofrecer todos sus productos en línea. Esto tuvo dos efectos: una mejora en el servicio y que los consumidores, ahora acostumbrados a los canales digitales, fueran más exigentes con todo lo relacionado a la infraestructura virtual.
+
+
+ARTÍCULO RELACIONADO
+Puntored, Tpaga y Rapicredit, las empresas más grandes del ecosistema fintech
+Todo esto pasó al mismo tiempo que un competidor cauteloso, pero amenazador, creció con fuerza en el país: las fintech. 
+Según el último estudio de Colombia Fintech
+, estas empresas crecieron 67% desde 2017 a 2020 y más de 50% de ese crecimiento se concentró en el año pasado. Estas compañías se caracterizan por tener productos financieros más incluyentes, ágiles y con sofisticados sistemas.
+
+
+Todo esto hizo que uno de los sectores más sólidos de la economía también innovara con productos y servicios. “Las amenazas existenciales a menudo surgen de competidores no tradicionales. Por ejemplo, los libreros tradicionales no reconocieron la amenaza de un startup en línea llamada Amazon hasta que fue demasiado tarde. Y lo mismo ocurre con la banca”, expresó Ethan Clark, vicepresidente Regional para América Latina y el Caribe de Backbase.
+
+
+
+
+Esta empresa de soluciones para el sistema financiero realizó una investigación en la que reveló las cuatro tendencias que deberá tener la banca para 2025 para seguir creciendo.
+
+
+La banca deberá ser omnicanal, pues según el estudio, la tradicional tiene un enfoque obsoleto, con canales estructurados como web, internet o sucursales, los cuales no son cómodos ni eficientes .
+
+
+El estudio propone que, en lugar de crear funciones digitales para cada canal, será mejor hacer todo una sola vez y distribuir el resultado a todos los canales a través del core. De esta manera, los bancos pueden orquestar las interacciones de los clientes a través de múltiples puntos de contacto, generando ahorro de tiempo y dinero, y mejores experiencias de cliente. Acá la clave es eliminar las fricciones para ser lo más amigables con el usuario posible.
+
+
+ARTÍCULO RELACIONADO
+Fintech y plataformas de pago
+El segundo pilar es una banca modular: las grandes compañías tecnológicas y 
+fintech
+ son más ágiles, utilizan sistemas basados en componentes, que permiten compartir las mismas funcionalidades en diversos procesos, aplicando principios de intercambio estandarizados.
+
+
+Al emplear módulos en un lado u otro, en función de las necesidades, es posible personalizar ofertas o agregar nuevos elementos sin grandes esfuerzos de implementación. Los módulos se crean una vez, se reutilizan y se combinan infinitamente, creando una estructura fluida que se puede usar para responder a las demandas más recientes del cliente.
+
+
+LOS CONTRASTES
+Ethan Clark
+Vicepresidente Regional para América Latina y el Caribe de Backbase
+“Los bancos necesitan esta libertad y velocidad para mantenerse en contacto con las demandas del mercado. Con una base más ágil, pueden empezar a innovar de verdad”.
+
+
+La banca deberá ser abierta. Utilizar APIs abiertas para compartir datos con terceros externos es importante. La banca abierta y PSD2 ha cambiado la experiencia en Europa. Se prevé que la mayoría de los bancos de todo el mundo explorarán modelos de negocio más abiertos para empezar a crear redes y aportar valor a sus ofertas.
+
+
+Finalmente, deberá ser inteligente, el estudio afirmó que el uso de Inteligencia Artificial aumenta 10% las ventas de las empresas, esto debe ir acompañado de más herramientas como los Big Data, que es el motor que impulsa todos estos esfuerzos. Por esto, los bancos deben habituarse a ellos para llegar a entender sus propios datos y los de terceros.
+
+
